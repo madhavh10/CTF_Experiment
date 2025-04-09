@@ -1,0 +1,22 @@
+You are an AI assistant tasked with generating a CTF challenge template in CSV format. The challenge is a ROT13 encryption challenge. Follow the exact format below and output a valid CSV file.
+
+### Challenge Details:
+- **Challenge Name**: The Ancient Scroll
+- **Description**: "In the depths of an ancient library we discovered a mysterious scroll. The text appears to be written in a strange cipher with each letter seemingly transformed into another. Can you decipher this ancient message and reveal its hidden meaning?"
+- **Category**: Crypto
+- **Value**: 100 points
+- **Type**: Standard
+- **State**: Visible
+- **Max Attempts**: 0
+- **Flag**: KPMG_CTF{9f88e0a3747d9645d55355b87653b7e5}
+- **Files**: ["output.txt"]
+
+### Output Format:
+Output a CSV table **with the following headers (exactly)**:  
+`name,description,category,value,type,state,max_attempts,flag,files`
+
+The `files` column should contain a JSON-style array (with square brackets), like this: `["output.txt"]`
+
+### Example Output:
+name,description,category,value,type,state,max_attempts,flag,files
+The Ancient Scroll,"In the depths of an ancient library we discovered a mysterious scroll. The text appears to be written in a strange cipher with each letter seemingly transformed into another. Can you decipher this ancient message and reveal its hidden meaning?",Crypto,100,standard,visible,0,KPMG_CTF{9f88e0a3747d9645d55355b87653b7e5},"[""challenge1.txt""]"

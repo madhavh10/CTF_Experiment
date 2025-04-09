@@ -1,0 +1,15 @@
+[
+    {
+        "name": "The Ancient Scroll",
+        "description": "In the depths of an ancient library we discovered a mysterious scroll. The text appears to be written in a strange cipher with each letter seemingly transformed into another. Can you decipher this ancient message and reveal its hidden meaning?",
+        "category": "Crypto",
+        "value": "100",
+        "type": "standard",
+        "state": "visible",
+        "max_attempts": "0",
+        "flag": "KPMG_CTF{9f88e0a3747d9645d55355b87653b7e5}",
+        "files": [
+            "output.txt"
+        ]
+    }
+]

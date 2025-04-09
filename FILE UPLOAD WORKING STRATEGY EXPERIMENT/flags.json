@@ -1,0 +1,23 @@
+{
+    "count": 3,
+    "results": [
+        {
+            "challenge_id": 3,
+            "content": "KPMG_CTF{w3ll_h3r3_y0u_60}",
+            "type": "static",
+            "data": ""
+        },
+        {
+            "challenge_id": 4,
+            "content": "KPMG_CTF{h4h_u_r3v3r53d_17!}",
+            "type": "static",
+            "data": ""
+        },
+        {
+            "challenge_id": 5,
+            "content": "KPMG_CTF{y0u_607_m3}",
+            "type": "static",
+            "data": ""
+        }
+    ]
+}

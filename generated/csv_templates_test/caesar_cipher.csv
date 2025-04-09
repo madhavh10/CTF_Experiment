@@ -1,0 +1,2 @@
+name,description,category,value,type,state,max_attempts,
+When Found in Rome,We intercepted a secret message but it seems to be encrypted using a cipher. Can you decrypt it?,Crypto,100,standard,visible,0

@@ -1,0 +1,38 @@
+{
+    "count": 3,
+    "results": [
+        {
+            "name": "test_challenge",
+            "description": "This is a test challenge",
+            "value": 100,
+            "category": "Misc",
+            "state": "visible",
+            "type": "standard",
+            "max_attempts": "0",
+            "flag": "CTF{BUFFER_OVERFLOW_WIN}",
+            "files": ["buffer_overflow.c"]
+        },
+        {
+            "name": "rev_test",
+            "description": "This is a third test challenge",
+            "value": 300,
+            "category": "Reverse",
+            "state": "visible",
+            "type": "standard",
+            "max_attempts": "0",
+            "flag": "CTF{REVERSE_WIN}",
+            "files": ["buffer_overflow.c"]
+        },
+        {
+            "name": "When Found in Rome",
+            "description": "We intercepted a secret message but it seems to be encrypted using a cipher. Can you decrypt it?",
+            "category": "Crypto",
+            "value": "100",
+            "type": "standard",
+            "state": "visible",
+            "max_attempts": "0",
+            "flag": "CTF{CAESAR_CIPHER_WIN}",
+            "files": ["buffer_overflow.c"]
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+You are an AI assistant tasked with generating a CTF challenge template in CSV format. The challenge is a ROT13 encryption challenge. Follow the exact format below and output a valid CSV file.
+
+### Challenge Details:
+- **Challenge Name**: The Ancient Scroll
+- **Description**: "In the depths of an ancient library we discovered a mysterious scroll. The text appears to be written in a strange cipher with each letter seemingly transformed into another. Can you decipher this ancient message and reveal its hidden meaning?"
+- **Category**: Crypto
+- **Value**: 100 points
+- **Type**: Standard
+- **State**: Visible
+- **Max Attempts**: 0 
+
+
+### **Expected CSV Format:**
+name,description,category,value,type,state,max_attempts,
+challenge1,challenge description,category1,100,standard,hidden,0.
+challenge2,challenge description,category2,100,standard,visible,0.
+challenge3,challenge description,category3,100,dynamic,visible,0.
+challenge4,challenge description,category4,500,dynamic,visible,0.
+
+**JUST PUT THE CHALLENGE DETAILS IN CSV ONLY and INCLUDE headers name , description and all**  
