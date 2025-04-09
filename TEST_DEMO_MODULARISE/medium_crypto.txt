@@ -1,0 +1,11 @@
+Okay, here's the Medium difficulty encrypted version of the flag, along with a hint to guide decryption. I'm focusing solely on the "Medium" difficulty as requested.
+
+**Medium: Vigenere Cipher**
+
+*   **Encryption Method:** Vigenere Cipher
+
+*   **Key:** `LEMON`
+
+*   **Encrypted Output:** `UCYGW_QTV{74338566g844iih7h8g439c0eae5g16f}`
+
+*   **Hint:** "Think of fruits and a famous square."

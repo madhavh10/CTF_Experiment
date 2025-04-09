@@ -1,0 +1,10 @@
+Okay, here's the "Easy" encrypted version of the flag, along with a hint:
+
+**Easy:**
+
+*   **Encryption Method:** Base64
+
+*   **Encrypted Output:**
+    `S1BNR19DVEZ7MzQ3NzQxMjJjNDAwZWJkN2Y0YzA3OWM4YWJhOTg1MmJ9`
+
+*   **Hint:** This looks like a common encoding scheme used for representing binary data in ASCII format. Think about reversing the process.

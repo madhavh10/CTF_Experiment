@@ -1,0 +1,21 @@
+Okay, here are the three encrypted versions of the CTF flag, along with appropriate hints, designed for varying levels of difficulty. The original flag is: `KPMG_CTF{34774122c400ebd7f4c079c8aba9852b}`
+
+**Easy:**
+
+*   **Cipher:** Base64
+*   **Encrypted Output:** `S1BNR19DVEZ7MzQ3NzQxMjJjNDAwZWJkN2Y0YzA3OWM4YWJhOTg1MmJ9`
+*   **Hint:** This looks like it might be encoded rather than encrypted. A common encoding scheme used online...
+
+**Medium:**
+
+*   **Cipher:** Vigenere Cipher with key "KEY"
+*   **Encrypted Output:** `VPWJ_HVH{47887455f733heb0g7g302fcbifc165e}`
+*   **Hint:** Repeating patterns are the KEY to unraveling this one.
+
+**Hard:**
+
+*   **Cipher:**
+    1.  AES-256-CBC (with a random unknown key & IV)
+    2.  Base64 encode the AES output.
+*   **Encrypted Output:** `zG496h9J00yW4d3oH3wFwQpC07iQxKqgV6lV07v9c06lW94F1+oPz/4Y38i/i99l0qY7s/ePz8/4j0P03z8y8354n49W7s6l1d75s8gW6y4g2/h0P`
+*   **Hint:** This looks like gobbledygook. It might be worth trying to see if it's encoded...then think about what is commonly used to protect data. You'll need to reverse the process in the correct order.
