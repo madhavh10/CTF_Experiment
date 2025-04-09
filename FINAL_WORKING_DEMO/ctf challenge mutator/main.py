@@ -7,7 +7,7 @@ import google.generativeai as genai
 
 # CTFd Server Configuration
 CTFD_URL = "http://localhost:8000"  # Change this if needed
-API_TOKEN = "ctfd_b292ab6c693fc59b76c62c6145b44c4be91bac8b549681c61c2287e46b1d68b8"  # Replace with your API token
+API_TOKEN = ""  # Replace with your API token
 
 # Headers for authentication
 HEADERS = {
@@ -16,7 +16,7 @@ HEADERS = {
 }
 
 # Set up Gemini API Key
-genai.configure(api_key="AIzaSyBvcIqqahMhT76SWyUKfOkQcIz7U9uoE4A")
+genai.configure(api_key="")
 
 model = genai.GenerativeModel("gemini-2.0-flash")
 

@@ -11,12 +11,12 @@ from pathlib import Path
 
 # Configuration
 CTFD_URL = "http://localhost:8000"
-API_TOKEN = "ctfd_b292ab6c693fc59b76c62c6145b44c4be91bac8b549681c61c2287e46b1d68b8"
+API_TOKEN = ""
 HEADERS = {
     "Authorization": f"Token {API_TOKEN}",
     "Content-Type": "application/json",
 }
-genai.configure(api_key="AIzaSyBvcIqqahMhT76SWyUKfOkQcIz7U9uoE4A")
+genai.configure(api_key="")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 def clean_dockerfile(content):
